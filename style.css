@@ -1,0 +1,145 @@
+      /* Estilização geral */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #0D1117;
+        color: #F2E7DC;
+        line-height: 1.6;
+    }
+
+    /* Cabeçalho */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #25292Ecc;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        position: fixed;
+    }
+
+    header img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+
+    #projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+    }
+
+    h4 {
+        color: #F2E7DC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+
+    nav {
+    padding-right: 20px;
+    }
+
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #F2E7DC;
+        transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: #A9D9D0;
+    }
+
+    /* Corpo principal */
+    main {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    section {
+        margin-bottom: 40px;
+        scroll-margin-top: 120px;
+    }
+
+    h1, h2 {
+        color: #A9D9D0;
+    }
+
+    article {
+        background-color: #25292E;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    article h3 {
+        margin-top: 0;
+    }
+
+    aside {
+        background-color: #25292E;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    /* Botões */
+    button {
+        background-color: #038C7F;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        color: #F2E7DC;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #027373;
+    }
+
+    .extra-link {
+        text-decoration: none;        
+        color: #A4D2C9;
+    }
+
+    .extra-link:hover {
+        color: #c4d6d3;
+    }
+
+    /* Rodapé */
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #25292E;
+        margin-top: 20px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+    }
